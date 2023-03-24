@@ -1,3 +1,4 @@
+#Connextra user story template: “role-capability-reason” format
 Feature: code-breaker starts game
   As a code-breaker
   I want to start a game
