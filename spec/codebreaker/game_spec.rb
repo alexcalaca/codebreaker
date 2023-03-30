@@ -1,12 +1,11 @@
 require 'spec_helper'
 
 module Codebreaker
-  describe Game do
-    describe "#start" do
-      #Given
-      let(:output) { double('output').as_null_object }
-      let(:game) { Game.new(output) }      
+  describe Game do    
+    let(:output)  { double('output').as_null_object }
+    let(:game)    { Game.new(output) }      
 
+    describe "#start" do
 			it "sends a welcome message" do
         output.should_receive(:puts).with('Welcome to Codebreaker!')
         game.start('1234')
