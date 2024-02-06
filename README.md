@@ -28,4 +28,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 # README
 
-Page 88
